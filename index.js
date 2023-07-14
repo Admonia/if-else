@@ -69,24 +69,24 @@ else if ( num1 === 99 && sum > 0) {
 //step three
 //Greater than or equal to 5
 //set variables according to test
-const greater1=5
-const greater2=5
+// set two variables that have input values from the test list
+const greater1 = 5
+const greater2 = 5
 
-//with variables 5 and 6 are greater or equal to 5 print "true"
-if (greater1 === 6 && greater2 === 4) {
-console.log ("false")
+// print which exercise this is to console to make it easier to read the output
+console.log("\n[Greater than 5] test variables are " + greater1 + " and " + greater2 + ":")
+
+// check whether the first variable is greater than 5 AND if the second one is greater than 5
+ if ( greater1 >= 5 && greater2 >=5 ) {
+
+    // print true if both values are greater than 5
+    console.log(true)
+
+    // print false if they're not
+} else {
+    console.log(false)
 }
-
-else if (greater1 + greater2 >= 5) {
-    console.log ("true")
-}
-
-//with variables 10 and 11 are greater or equal to 5 print "false"
-
-else if (greater1 + greater2 < 5) {
-    console.log ("false")
-}
-
+    
 //step four
 //Pair and Compair
 //set variables according to test 
